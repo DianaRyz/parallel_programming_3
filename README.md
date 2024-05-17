@@ -10,15 +10,19 @@
 
 ## Отчет о работе на суперкомпьютере:
 1) startMPI.pbs - 2 потока
+
 ![image](https://github.com/DianaRyz/parallel_programming_3/assets/114705840/7c23eb17-72c0-4b29-863d-cf112fc969de)
 
 2) startMPI_3.pbs - 3 потока
+
 ![image](https://github.com/DianaRyz/parallel_programming_3/assets/114705840/94733c6a-2783-4108-9968-238ed1ac915b)
 
 3) startMPI_4.pbs - 4 потока
+
 ![image](https://github.com/DianaRyz/parallel_programming_3/assets/114705840/905225f1-b87c-4602-ba61-f1b3ecb55248)
 
 4) startMPI_8.pbs - 8 потоков
+
 ![image](https://github.com/DianaRyz/parallel_programming_3/assets/114705840/a7792e6a-10ad-4ce2-964f-bfe85873ccb9)
 
 5) slurm-93946.out - 2 потока
@@ -36,3 +40,8 @@
 8) slurm-93950.out - 8 потоков
 
 ![image](https://github.com/DianaRyz/parallel_programming_3/assets/114705840/94f01f86-7ac5-498c-8079-8837f666dccd)
+
+## График:
+
+## Выводы:
+MPI позволяет ускорить исследуемую операцию, так как каждый поток работает над своей частью результирующей матрицы, что позволяет эффективнее использовать вычислительные ресурсы и уменьшить время выполнения операции.
